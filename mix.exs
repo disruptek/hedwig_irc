@@ -37,7 +37,7 @@ defmodule HedwigIrc.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:hedwig, git: "https://github.com/disruptek/hedwig.git", tag: "disbot", override: true},
+      {:hedwig, git: "https://github.com/disruptek/hedwig.git", tag: "disbot"},
       {:exirc, "~> 1.1.0"},
       {:ex_doc, "~> 0.18", only: :dev}
     ]
